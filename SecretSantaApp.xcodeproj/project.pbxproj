@@ -1,0 +1,845 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2FE899A92B292EDD0059A537 /* CustomViewModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE899A82B292EDD0059A537 /* CustomViewModifiers.swift */; };
+		8E1E5DDE2B1837EE00404E63 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1E5DDD2B1837EE00404E63 /* GoogleService-Info.plist */; };
+		8E1E5DE12B183AFD00404E63 /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DE02B183AFD00404E63 /* FirebaseAppCheck */; };
+		8E1E5DE32B183AFD00404E63 /* FirebaseAppDistribution-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DE22B183AFD00404E63 /* FirebaseAppDistribution-Beta */; };
+		8E1E5DE52B183AFD00404E63 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DE42B183AFD00404E63 /* FirebaseAuth */; };
+		8E1E5DE72B183AFD00404E63 /* FirebaseAuthCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DE62B183AFD00404E63 /* FirebaseAuthCombine-Community */; };
+		8E1E5DE92B183AFD00404E63 /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DE82B183AFD00404E63 /* FirebaseDatabase */; };
+		8E1E5DEB2B183AFD00404E63 /* FirebaseDatabaseSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DEA2B183AFD00404E63 /* FirebaseDatabaseSwift */; };
+		8E1E5DED2B183AFD00404E63 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DEC2B183AFD00404E63 /* FirebaseFirestore */; };
+		8E1E5DEF2B183AFD00404E63 /* FirebaseFirestoreCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DEE2B183AFD00404E63 /* FirebaseFirestoreCombine-Community */; };
+		8E1E5DF12B183AFD00404E63 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DF02B183AFD00404E63 /* FirebaseFirestoreSwift */; };
+		8E1E5DF32B183AFD00404E63 /* FirebaseFunctions in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DF22B183AFD00404E63 /* FirebaseFunctions */; };
+		8E1E5DF52B183AFD00404E63 /* FirebaseFunctionsCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DF42B183AFD00404E63 /* FirebaseFunctionsCombine-Community */; };
+		8E1E5DF72B183AFD00404E63 /* FirebaseInAppMessaging-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DF62B183AFD00404E63 /* FirebaseInAppMessaging-Beta */; };
+		8E1E5DF92B183AFD00404E63 /* FirebaseInAppMessagingSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DF82B183AFD00404E63 /* FirebaseInAppMessagingSwift-Beta */; };
+		8E1E5DFB2B183AFD00404E63 /* FirebaseInstallations in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DFA2B183AFD00404E63 /* FirebaseInstallations */; };
+		8E1E5DFD2B183AFD00404E63 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DFC2B183AFD00404E63 /* FirebaseMessaging */; };
+		8E1E5DFF2B183AFD00404E63 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5DFE2B183AFD00404E63 /* FirebasePerformance */; };
+		8E1E5E012B183AFD00404E63 /* FirebaseRemoteConfig in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5E002B183AFD00404E63 /* FirebaseRemoteConfig */; };
+		8E1E5E032B183AFD00404E63 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5E022B183AFD00404E63 /* FirebaseRemoteConfigSwift */; };
+		8E1E5E052B183AFD00404E63 /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5E042B183AFD00404E63 /* FirebaseStorage */; };
+		8E1E5E072B183AFD00404E63 /* FirebaseStorageCombine-Community in Frameworks */ = {isa = PBXBuildFile; productRef = 8E1E5E062B183AFD00404E63 /* FirebaseStorageCombine-Community */; };
+		8E1E5E092B183E4800404E63 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5E082B183E4800404E63 /* LaunchView.swift */; };
+		8E1E5E0B2B183E6A00404E63 /* RootView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5E0A2B183E6A00404E63 /* RootView.swift */; };
+		8E1E5E0D2B183EC400404E63 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5E0C2B183EC400404E63 /* SignInView.swift */; };
+		8E1E5E0F2B183ED000404E63 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5E0E2B183ED000404E63 /* SignUpView.swift */; };
+		8E1E5E112B183F2800404E63 /* FireDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5E102B183F2800404E63 /* FireDBHelper.swift */; };
+		8E1E5E132B18404B00404E63 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5E122B18404B00404E63 /* MainView.swift */; };
+		8E485A582B259A01000D2124 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E485A572B259A01000D2124 /* ViewController.swift */; };
+		8E485A5A2B25A28A000D2124 /* ShopsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E485A592B25A28A000D2124 /* ShopsPage.swift */; };
+		8E5E89FA2B24BCD6004EC0C0 /* AddFriendPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E89F92B24BCD6004EC0C0 /* AddFriendPage.swift */; };
+		8E5E89FC2B24E7C4004EC0C0 /* DisplayFriendsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E5E89FB2B24E7C4004EC0C0 /* DisplayFriendsPage.swift */; };
+		8E7B07EE2B0B0FC2009B7674 /* SecretSantaAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B07ED2B0B0FC2009B7674 /* SecretSantaAppApp.swift */; };
+		8E7B07F22B0B0FC8009B7674 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B07F12B0B0FC8009B7674 /* Assets.xcassets */; };
+		8E7B07F52B0B0FC8009B7674 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E7B07F42B0B0FC8009B7674 /* Preview Assets.xcassets */; };
+		8E7B07FD2B0B1896009B7674 /* FriendsPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B07FC2B0B1896009B7674 /* FriendsPage.swift */; };
+		8E7B08012B0B1C74009B7674 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B08002B0B1C74009B7674 /* User.swift */; };
+		8E7B08052B0B1F4A009B7674 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B08042B0B1F4A009B7674 /* LocationHelper.swift */; };
+		925044AE2B29471D0041DF42 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925044AD2B29471D0041DF42 /* WidgetKit.framework */; };
+		925044B02B29471D0041DF42 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 925044AF2B29471D0041DF42 /* SwiftUI.framework */; };
+		925044B32B29471D0041DF42 /* SecretSantaWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925044B22B29471D0041DF42 /* SecretSantaWidgetBundle.swift */; };
+		925044B52B29471D0041DF42 /* SecretSantaWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925044B42B29471D0041DF42 /* SecretSantaWidgetLiveActivity.swift */; };
+		925044B72B29471D0041DF42 /* SecretSantaWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 925044B62B29471D0041DF42 /* SecretSantaWidget.swift */; };
+		925044B92B29471E0041DF42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 925044B82B29471E0041DF42 /* Assets.xcassets */; };
+		925044BD2B29471E0041DF42 /* SecretSantaWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 925044AB2B29471D0041DF42 /* SecretSantaWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		925044C22B2947270041DF42 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B08002B0B1C74009B7674 /* User.swift */; };
+		925044C52B29472F0041DF42 /* LocationHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E7B08042B0B1F4A009B7674 /* LocationHelper.swift */; };
+		925044C62B2947310041DF42 /* FireDBHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E1E5E102B183F2800404E63 /* FireDBHelper.swift */; };
+		925044C72B2947330041DF42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E485A572B259A01000D2124 /* ViewController.swift */; };
+		925044C92B2948180041DF42 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 925044C82B2948180041DF42 /* FirebaseFirestore */; };
+		925044CB2B2948310041DF42 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 925044CA2B2948310041DF42 /* FirebaseAuth */; };
+		925044CD2B29485C0041DF42 /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 925044CC2B29485C0041DF42 /* FirebaseFirestoreSwift */; };
+		925044CE2B2948820041DF42 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8E1E5DDD2B1837EE00404E63 /* GoogleService-Info.plist */; };
+		927572D72B28C79500A29830 /* ExchangePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 927572D62B28C79500A29830 /* ExchangePage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		925044BB2B29471E0041DF42 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8E7B07E22B0B0FC2009B7674 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 925044AA2B29471D0041DF42;
+			remoteInfo = SecretSantaWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		925044BE2B29471E0041DF42 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				925044BD2B29471E0041DF42 /* SecretSantaWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2FE899A82B292EDD0059A537 /* CustomViewModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewModifiers.swift; sourceTree = "<group>"; };
+		8E1E5DDD2B1837EE00404E63 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		8E1E5E082B183E4800404E63 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		8E1E5E0A2B183E6A00404E63 /* RootView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootView.swift; sourceTree = "<group>"; };
+		8E1E5E0C2B183EC400404E63 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		8E1E5E0E2B183ED000404E63 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		8E1E5E102B183F2800404E63 /* FireDBHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FireDBHelper.swift; sourceTree = "<group>"; };
+		8E1E5E122B18404B00404E63 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		8E485A572B259A01000D2124 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8E485A592B25A28A000D2124 /* ShopsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShopsPage.swift; sourceTree = "<group>"; };
+		8E5E89F92B24BCD6004EC0C0 /* AddFriendPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFriendPage.swift; sourceTree = "<group>"; };
+		8E5E89FB2B24E7C4004EC0C0 /* DisplayFriendsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayFriendsPage.swift; sourceTree = "<group>"; };
+		8E7B07EA2B0B0FC2009B7674 /* SecretSantaApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SecretSantaApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E7B07ED2B0B0FC2009B7674 /* SecretSantaAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaAppApp.swift; sourceTree = "<group>"; };
+		8E7B07F12B0B0FC8009B7674 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8E7B07F42B0B0FC8009B7674 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		8E7B07FC2B0B1896009B7674 /* FriendsPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsPage.swift; sourceTree = "<group>"; };
+		8E7B08002B0B1C74009B7674 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		8E7B08042B0B1F4A009B7674 /* LocationHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationHelper.swift; sourceTree = "<group>"; };
+		923F8EEF2B29572F00254609 /* SecretSantaApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecretSantaApp.entitlements; sourceTree = "<group>"; };
+		923F8EF02B29575E00254609 /* SecretSantaWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SecretSantaWidgetExtension.entitlements; sourceTree = "<group>"; };
+		925044AB2B29471D0041DF42 /* SecretSantaWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = SecretSantaWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		925044AD2B29471D0041DF42 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		925044AF2B29471D0041DF42 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		925044B22B29471D0041DF42 /* SecretSantaWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaWidgetBundle.swift; sourceTree = "<group>"; };
+		925044B42B29471D0041DF42 /* SecretSantaWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		925044B62B29471D0041DF42 /* SecretSantaWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecretSantaWidget.swift; sourceTree = "<group>"; };
+		925044B82B29471E0041DF42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		925044BA2B29471E0041DF42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		927572D62B28C79500A29830 /* ExchangePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangePage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8E7B07E72B0B0FC2009B7674 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E1E5DEB2B183AFD00404E63 /* FirebaseDatabaseSwift in Frameworks */,
+				8E1E5DFB2B183AFD00404E63 /* FirebaseInstallations in Frameworks */,
+				8E1E5E072B183AFD00404E63 /* FirebaseStorageCombine-Community in Frameworks */,
+				8E1E5DEF2B183AFD00404E63 /* FirebaseFirestoreCombine-Community in Frameworks */,
+				8E1E5E032B183AFD00404E63 /* FirebaseRemoteConfigSwift in Frameworks */,
+				8E1E5DE92B183AFD00404E63 /* FirebaseDatabase in Frameworks */,
+				8E1E5E012B183AFD00404E63 /* FirebaseRemoteConfig in Frameworks */,
+				8E1E5DE12B183AFD00404E63 /* FirebaseAppCheck in Frameworks */,
+				8E1E5DE52B183AFD00404E63 /* FirebaseAuth in Frameworks */,
+				8E1E5DFF2B183AFD00404E63 /* FirebasePerformance in Frameworks */,
+				8E1E5E052B183AFD00404E63 /* FirebaseStorage in Frameworks */,
+				8E1E5DE32B183AFD00404E63 /* FirebaseAppDistribution-Beta in Frameworks */,
+				8E1E5DE72B183AFD00404E63 /* FirebaseAuthCombine-Community in Frameworks */,
+				8E1E5DF32B183AFD00404E63 /* FirebaseFunctions in Frameworks */,
+				8E1E5DF92B183AFD00404E63 /* FirebaseInAppMessagingSwift-Beta in Frameworks */,
+				8E1E5DED2B183AFD00404E63 /* FirebaseFirestore in Frameworks */,
+				8E1E5DF52B183AFD00404E63 /* FirebaseFunctionsCombine-Community in Frameworks */,
+				8E1E5DFD2B183AFD00404E63 /* FirebaseMessaging in Frameworks */,
+				8E1E5DF12B183AFD00404E63 /* FirebaseFirestoreSwift in Frameworks */,
+				8E1E5DF72B183AFD00404E63 /* FirebaseInAppMessaging-Beta in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925044A82B29471D0041DF42 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925044CD2B29485C0041DF42 /* FirebaseFirestoreSwift in Frameworks */,
+				925044B02B29471D0041DF42 /* SwiftUI.framework in Frameworks */,
+				925044AE2B29471D0041DF42 /* WidgetKit.framework in Frameworks */,
+				925044C92B2948180041DF42 /* FirebaseFirestore in Frameworks */,
+				925044CB2B2948310041DF42 /* FirebaseAuth in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8E7B07E12B0B0FC2009B7674 = {
+			isa = PBXGroup;
+			children = (
+				923F8EF02B29575E00254609 /* SecretSantaWidgetExtension.entitlements */,
+				8E7B07EC2B0B0FC2009B7674 /* SecretSantaApp */,
+				925044B12B29471D0041DF42 /* SecretSantaWidget */,
+				925044AC2B29471D0041DF42 /* Frameworks */,
+				8E7B07EB2B0B0FC2009B7674 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8E7B07EB2B0B0FC2009B7674 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B07EA2B0B0FC2009B7674 /* SecretSantaApp.app */,
+				925044AB2B29471D0041DF42 /* SecretSantaWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8E7B07EC2B0B0FC2009B7674 /* SecretSantaApp */ = {
+			isa = PBXGroup;
+			children = (
+				923F8EEF2B29572F00254609 /* SecretSantaApp.entitlements */,
+				8E1E5DDD2B1837EE00404E63 /* GoogleService-Info.plist */,
+				8E7B07FF2B0B1C65009B7674 /* Models */,
+				8E7B07FE2B0B1AD6009B7674 /* Helpers */,
+				8E7B07FB2B0B1883009B7674 /* Views */,
+				8E7B07ED2B0B0FC2009B7674 /* SecretSantaAppApp.swift */,
+				8E7B07F12B0B0FC8009B7674 /* Assets.xcassets */,
+				8E7B07F32B0B0FC8009B7674 /* Preview Content */,
+				2FE899A82B292EDD0059A537 /* CustomViewModifiers.swift */,
+			);
+			path = SecretSantaApp;
+			sourceTree = "<group>";
+		};
+		8E7B07F32B0B0FC8009B7674 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B07F42B0B0FC8009B7674 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8E7B07FB2B0B1883009B7674 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B07FC2B0B1896009B7674 /* FriendsPage.swift */,
+				8E1E5E082B183E4800404E63 /* LaunchView.swift */,
+				8E1E5E0A2B183E6A00404E63 /* RootView.swift */,
+				8E1E5E0C2B183EC400404E63 /* SignInView.swift */,
+				8E1E5E0E2B183ED000404E63 /* SignUpView.swift */,
+				8E1E5E122B18404B00404E63 /* MainView.swift */,
+				8E5E89F92B24BCD6004EC0C0 /* AddFriendPage.swift */,
+				8E5E89FB2B24E7C4004EC0C0 /* DisplayFriendsPage.swift */,
+				8E485A592B25A28A000D2124 /* ShopsPage.swift */,
+				927572D62B28C79500A29830 /* ExchangePage.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8E7B07FE2B0B1AD6009B7674 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B08042B0B1F4A009B7674 /* LocationHelper.swift */,
+				8E1E5E102B183F2800404E63 /* FireDBHelper.swift */,
+				8E485A572B259A01000D2124 /* ViewController.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		8E7B07FF2B0B1C65009B7674 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8E7B08002B0B1C74009B7674 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		925044AC2B29471D0041DF42 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				925044AD2B29471D0041DF42 /* WidgetKit.framework */,
+				925044AF2B29471D0041DF42 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		925044B12B29471D0041DF42 /* SecretSantaWidget */ = {
+			isa = PBXGroup;
+			children = (
+				925044B22B29471D0041DF42 /* SecretSantaWidgetBundle.swift */,
+				925044B42B29471D0041DF42 /* SecretSantaWidgetLiveActivity.swift */,
+				925044B62B29471D0041DF42 /* SecretSantaWidget.swift */,
+				925044B82B29471E0041DF42 /* Assets.xcassets */,
+				925044BA2B29471E0041DF42 /* Info.plist */,
+			);
+			path = SecretSantaWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8E7B07E92B0B0FC2009B7674 /* SecretSantaApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8E7B07F82B0B0FC8009B7674 /* Build configuration list for PBXNativeTarget "SecretSantaApp" */;
+			buildPhases = (
+				8E7B07E62B0B0FC2009B7674 /* Sources */,
+				8E7B07E72B0B0FC2009B7674 /* Frameworks */,
+				8E7B07E82B0B0FC2009B7674 /* Resources */,
+				925044BE2B29471E0041DF42 /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				925044BC2B29471E0041DF42 /* PBXTargetDependency */,
+			);
+			name = SecretSantaApp;
+			packageProductDependencies = (
+				8E1E5DE02B183AFD00404E63 /* FirebaseAppCheck */,
+				8E1E5DE22B183AFD00404E63 /* FirebaseAppDistribution-Beta */,
+				8E1E5DE42B183AFD00404E63 /* FirebaseAuth */,
+				8E1E5DE62B183AFD00404E63 /* FirebaseAuthCombine-Community */,
+				8E1E5DE82B183AFD00404E63 /* FirebaseDatabase */,
+				8E1E5DEA2B183AFD00404E63 /* FirebaseDatabaseSwift */,
+				8E1E5DEC2B183AFD00404E63 /* FirebaseFirestore */,
+				8E1E5DEE2B183AFD00404E63 /* FirebaseFirestoreCombine-Community */,
+				8E1E5DF02B183AFD00404E63 /* FirebaseFirestoreSwift */,
+				8E1E5DF22B183AFD00404E63 /* FirebaseFunctions */,
+				8E1E5DF42B183AFD00404E63 /* FirebaseFunctionsCombine-Community */,
+				8E1E5DF62B183AFD00404E63 /* FirebaseInAppMessaging-Beta */,
+				8E1E5DF82B183AFD00404E63 /* FirebaseInAppMessagingSwift-Beta */,
+				8E1E5DFA2B183AFD00404E63 /* FirebaseInstallations */,
+				8E1E5DFC2B183AFD00404E63 /* FirebaseMessaging */,
+				8E1E5DFE2B183AFD00404E63 /* FirebasePerformance */,
+				8E1E5E002B183AFD00404E63 /* FirebaseRemoteConfig */,
+				8E1E5E022B183AFD00404E63 /* FirebaseRemoteConfigSwift */,
+				8E1E5E042B183AFD00404E63 /* FirebaseStorage */,
+				8E1E5E062B183AFD00404E63 /* FirebaseStorageCombine-Community */,
+			);
+			productName = SecretSantaApp;
+			productReference = 8E7B07EA2B0B0FC2009B7674 /* SecretSantaApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		925044AA2B29471D0041DF42 /* SecretSantaWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 925044C12B29471E0041DF42 /* Build configuration list for PBXNativeTarget "SecretSantaWidgetExtension" */;
+			buildPhases = (
+				925044A72B29471D0041DF42 /* Sources */,
+				925044A82B29471D0041DF42 /* Frameworks */,
+				925044A92B29471D0041DF42 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SecretSantaWidgetExtension;
+			packageProductDependencies = (
+				925044C82B2948180041DF42 /* FirebaseFirestore */,
+				925044CA2B2948310041DF42 /* FirebaseAuth */,
+				925044CC2B29485C0041DF42 /* FirebaseFirestoreSwift */,
+			);
+			productName = SecretSantaWidgetExtension;
+			productReference = 925044AB2B29471D0041DF42 /* SecretSantaWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8E7B07E22B0B0FC2009B7674 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					8E7B07E92B0B0FC2009B7674 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					925044AA2B29471D0041DF42 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 8E7B07E52B0B0FC2009B7674 /* Build configuration list for PBXProject "SecretSantaApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8E7B07E12B0B0FC2009B7674;
+			packageReferences = (
+				8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 8E7B07EB2B0B0FC2009B7674 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8E7B07E92B0B0FC2009B7674 /* SecretSantaApp */,
+				925044AA2B29471D0041DF42 /* SecretSantaWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8E7B07E82B0B0FC2009B7674 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E7B07F52B0B0FC8009B7674 /* Preview Assets.xcassets in Resources */,
+				8E7B07F22B0B0FC8009B7674 /* Assets.xcassets in Resources */,
+				8E1E5DDE2B1837EE00404E63 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925044A92B29471D0041DF42 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925044B92B29471E0041DF42 /* Assets.xcassets in Resources */,
+				925044CE2B2948820041DF42 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8E7B07E62B0B0FC2009B7674 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8E485A582B259A01000D2124 /* ViewController.swift in Sources */,
+				8E1E5E0D2B183EC400404E63 /* SignInView.swift in Sources */,
+				8E1E5E132B18404B00404E63 /* MainView.swift in Sources */,
+				8E1E5E0B2B183E6A00404E63 /* RootView.swift in Sources */,
+				8E485A5A2B25A28A000D2124 /* ShopsPage.swift in Sources */,
+				8E1E5E112B183F2800404E63 /* FireDBHelper.swift in Sources */,
+				8E7B08012B0B1C74009B7674 /* User.swift in Sources */,
+				927572D72B28C79500A29830 /* ExchangePage.swift in Sources */,
+				8E5E89FA2B24BCD6004EC0C0 /* AddFriendPage.swift in Sources */,
+				2FE899A92B292EDD0059A537 /* CustomViewModifiers.swift in Sources */,
+				8E1E5E092B183E4800404E63 /* LaunchView.swift in Sources */,
+				8E5E89FC2B24E7C4004EC0C0 /* DisplayFriendsPage.swift in Sources */,
+				8E1E5E0F2B183ED000404E63 /* SignUpView.swift in Sources */,
+				8E7B08052B0B1F4A009B7674 /* LocationHelper.swift in Sources */,
+				8E7B07FD2B0B1896009B7674 /* FriendsPage.swift in Sources */,
+				8E7B07EE2B0B0FC2009B7674 /* SecretSantaAppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		925044A72B29471D0041DF42 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				925044C22B2947270041DF42 /* User.swift in Sources */,
+				925044C62B2947310041DF42 /* FireDBHelper.swift in Sources */,
+				925044C72B2947330041DF42 /* ViewController.swift in Sources */,
+				925044B52B29471D0041DF42 /* SecretSantaWidgetLiveActivity.swift in Sources */,
+				925044B72B29471D0041DF42 /* SecretSantaWidget.swift in Sources */,
+				925044C52B29472F0041DF42 /* LocationHelper.swift in Sources */,
+				925044B32B29471D0041DF42 /* SecretSantaWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		925044BC2B29471E0041DF42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 925044AA2B29471D0041DF42 /* SecretSantaWidgetExtension */;
+			targetProxy = 925044BB2B29471E0041DF42 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8E7B07F62B0B0FC8009B7674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8E7B07F72B0B0FC8009B7674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8E7B07F92B0B0FC8009B7674 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecretSantaApp/SecretSantaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecretSantaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FZJ48QLS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Secret Santa App requires location for best performance";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Secret Santa App requires location for best performance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhtar.SecretSantaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8E7B07FA2B0B0FC8009B7674 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SecretSantaApp/SecretSantaApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"SecretSantaApp/Preview Content\"";
+				DEVELOPMENT_TEAM = 8FZJ48QLS7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "Secret Santa App requires location for best performance";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Secret Santa App requires location for best performance";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhtar.SecretSantaApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		925044BF2B29471E0041DF42 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SecretSantaWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FZJ48QLS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecretSantaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SecretSantaWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhtar.SecretSantaApp.SecretSantaWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		925044C02B29471E0041DF42 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = SecretSantaWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8FZJ48QLS7;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SecretSantaWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SecretSantaWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.akhtar.SecretSantaApp.SecretSantaWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8E7B07E52B0B0FC2009B7674 /* Build configuration list for PBXProject "SecretSantaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7B07F62B0B0FC8009B7674 /* Debug */,
+				8E7B07F72B0B0FC8009B7674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8E7B07F82B0B0FC8009B7674 /* Build configuration list for PBXNativeTarget "SecretSantaApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8E7B07F92B0B0FC8009B7674 /* Debug */,
+				8E7B07FA2B0B0FC8009B7674 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		925044C12B29471E0041DF42 /* Build configuration list for PBXNativeTarget "SecretSantaWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925044BF2B29471E0041DF42 /* Debug */,
+				925044C02B29471E0041DF42 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8E1E5DE02B183AFD00404E63 /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		8E1E5DE22B183AFD00404E63 /* FirebaseAppDistribution-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAppDistribution-Beta";
+		};
+		8E1E5DE42B183AFD00404E63 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		8E1E5DE62B183AFD00404E63 /* FirebaseAuthCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseAuthCombine-Community";
+		};
+		8E1E5DE82B183AFD00404E63 /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		8E1E5DEA2B183AFD00404E63 /* FirebaseDatabaseSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabaseSwift;
+		};
+		8E1E5DEC2B183AFD00404E63 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8E1E5DEE2B183AFD00404E63 /* FirebaseFirestoreCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFirestoreCombine-Community";
+		};
+		8E1E5DF02B183AFD00404E63 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		8E1E5DF22B183AFD00404E63 /* FirebaseFunctions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFunctions;
+		};
+		8E1E5DF42B183AFD00404E63 /* FirebaseFunctionsCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseFunctionsCombine-Community";
+		};
+		8E1E5DF62B183AFD00404E63 /* FirebaseInAppMessaging-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessaging-Beta";
+		};
+		8E1E5DF82B183AFD00404E63 /* FirebaseInAppMessagingSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseInAppMessagingSwift-Beta";
+		};
+		8E1E5DFA2B183AFD00404E63 /* FirebaseInstallations */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseInstallations;
+		};
+		8E1E5DFC2B183AFD00404E63 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		8E1E5DFE2B183AFD00404E63 /* FirebasePerformance */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebasePerformance;
+		};
+		8E1E5E002B183AFD00404E63 /* FirebaseRemoteConfig */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfig;
+		};
+		8E1E5E022B183AFD00404E63 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+		8E1E5E042B183AFD00404E63 /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		8E1E5E062B183AFD00404E63 /* FirebaseStorageCombine-Community */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseStorageCombine-Community";
+		};
+		925044C82B2948180041DF42 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		925044CA2B2948310041DF42 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		925044CC2B29485C0041DF42 /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8E1E5DDF2B183AFD00404E63 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8E7B07E22B0B0FC2009B7674 /* Project object */;
+}
